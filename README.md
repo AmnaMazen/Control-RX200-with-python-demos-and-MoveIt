@@ -18,7 +18,7 @@ $ sudo apt-get install ros-melodic-moveit
 
 We have two gropus: interbotix_arm and interbotix_gripper. We tested different goal state such as "Home" for "interbotix_arm" and "closed" for "interbotix_gripper".
 
-Now, we will test the available python demos. Remeber to set goal state to "sleep" before closing the "moveit" node.
+Now, we will test the available python demos. Remember to set goal state to "sleep" before closing the "moveit" node.
 
 ## Launch the real RX200 and control it using the Trossen python demos:
 Open new Terminal
