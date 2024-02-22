@@ -52,8 +52,6 @@ I solved it by creating anaconda virtual environment using the following steps a
  $  pip install rospkg
 
  $  pip install numpy 2043  pip install modern-robotics
- 
- $  python ee_cartesian_trajectory.py
 
  Run the python code again and it works
  
