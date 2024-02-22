@@ -39,4 +39,23 @@ $ cd ~/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examp
 
  $ python ee_cartesian_trajectory.py
 
+I got this error "ImportError: dynamic module does not define module export function (PyInit__tf2)"
+
+I solved it by creating anaconda virtual environment using the following steps and run the python file again:
+
+ $ conda create --name ros_env python=2.7
+ 
+ $ conda activate ros_env
+
+ $ pip install pyyaml
+
+ $  pip install rospkg
+
+ $  pip install numpy 2043  pip install modern-robotics
+ 
+ $  python ee_cartesian_trajectory.py
+
+ Run the python code again and it works
+ 
+ $  python ee_cartesian_trajectory.py
 
